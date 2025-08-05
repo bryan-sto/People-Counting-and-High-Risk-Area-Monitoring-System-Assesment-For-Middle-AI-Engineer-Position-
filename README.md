@@ -74,7 +74,7 @@ The recommended way to run this project is by using Docker and Docker Compose, w
 ### Step 1: Clone the Repository
 
 ```
-git clone <your-repository-url>
+git clone <https://github.com/bryan-sto/People-Counting-and-High-Risk-Area-Monitoring-System-Assesment-For-Middle-AI-Engineer-Position-.git>
 cd <your-repository-name>
 ```
 Step 2: Configure Environment Variables
