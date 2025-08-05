@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+streamlit==1.33.0
+requests
+numpy
+opencv-python
+ultralytics
+streamlit-drawable-canvas==0.9.3
+pandas
+python-dotenv
