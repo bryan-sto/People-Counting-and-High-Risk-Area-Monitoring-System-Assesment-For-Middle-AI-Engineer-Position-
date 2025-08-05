@@ -90,7 +90,7 @@ if st.sidebar.button("📊 Statistics & Management", use_container_width=True):
 
 
 # ==============================================================================
-# LIVE PROCESSOR PAGE (Updated with Defensive Check)
+# LIVE PROCESSOR PAGE 
 # ==============================================================================
 if st.session_state.page == "Live Processor":
     st.header("🎥 Live Video Processor")
@@ -160,7 +160,7 @@ if st.session_state.page == "Live Processor":
             
             if len(clean_coords) < 3:
                 st.error(f"The selected area '{selected_area_name}' has invalid polygon data (fewer than 3 points). Please delete and re-create it.")
-                st.stop() # Stop execution to prevent a crash.
+                st.stop() 
 
             polygon_coords = np.array(clean_coords, np.int32)
             cap = cv2.VideoCapture(video_source)
@@ -328,4 +328,5 @@ elif st.session_state.page == "Statistics & Management":
                             if save_area_to_api(area_name, points_to_save):
                                 st.rerun()
                         else:
+
                             st.error("Area name is required.")
