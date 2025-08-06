@@ -141,3 +141,5 @@ The following endpoints are exposed by the FastAPI backend.
 3. Complete the Shape: To finish drawing, move your mouse to the location of your final point and right click. The polygon will automatically close and fill with color.
 
 4. Save the Area: Once the completed shape is visible, type a unique name for the area in the text box below the canvas and click the "Save Area" button.
+   
+5. Due to framework limitation i was not able to make the drawable area 100% to scale with the original video source
